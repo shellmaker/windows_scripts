@@ -1,4 +1,4 @@
-@Echo off
+@Echo off 
 if exist %systemdrive%\SUSClientID.log goto end
 net stop wuauserv
 net stop bits
